@@ -18,8 +18,8 @@ android_app {
     name: "FlipFlap",
 
     static_libs: [
-        "org.lineageos.platform.internal",
-        "org.lineageos.settings.resources",
+        "framework-lmodroid.static",
+        "com.libremobileos.settings.resources",
     ],
 
     srcs: ["src/**/*.java"],
